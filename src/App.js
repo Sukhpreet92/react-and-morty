@@ -1,9 +1,10 @@
+import Header from './components/header/Header'
+import React from 'react'
+import Navigation from './components/navbar/NavBar'
 function App() {
     return (
         <div>
-            <header>
-                <h1>React And Morty</h1>
-            </header>
+            <Header />
             <main>
                 <ul>
                     <li>
@@ -17,10 +18,10 @@ function App() {
                 </ul>
             </main>
             <footer>
-                <nav>
+                <Navigation>
                     <button>Placeholder</button>
                     <button>Placeholder</button>
-                </nav>
+                </Navigation>
             </footer>
         </div>
     )
